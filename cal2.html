@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cal">
+        <div class="top">
+            <div class="oparand">
+    <input id="firstoparand" type="text"><input type="text" id="oprator" >
+     <input id="secoparand" type="text">
+</div>
+<div  class="output">
+    <input id="outpute" type="text" >
+</div>
+<!-- <audio id="audio" controls autoplay src="click.mp3"><h1>mkemm</h1></audio> -->
+        </div>
+        <div class="input__cus">
+        <div class="inputs">
+            <div class=""></div>
+            <div onclick="clear_all()" class="clear_all">CE<span class="sou"></span></div>
+            <div class="delOne">C</div>
+            <div onclick="divide()" class="oprator">/</div>
+            <div onclick="writeOne()" class="num" id="one"  >1<span class="sou"></span></div>
+            <div  onclick="writetwo()" class="num">2 <span class="sou"></span></div>
+            <div onclick="writethree()"class="num">3<span class="sou"></span></div>
+            <div onclick="add()" class="oprator" >+<span class="sou"></span></div>
+            <div onclick="writefour()" class="num">4<span class="sou"></span></div>
+            <div onclick="writefive()"class="num">5<span class="sou"></span></div>
+            <div onclick="writesix()"class="num">6<span class="sou"></span></div>
+            <div onclick="subtract()" class="oprator" >-<span class="sou"></span></div>
+            <div onclick="writeseven()" class="num">7<span class="sou"></span></div>
+            <div onclick="write8()"  class="num">8<span class="sou"></span></div>
+            <div onclick="write9()"class="num">9<span class="sou"></span></div>
+            <div onclick="multiply()" class="oprator">*<span class="sou"></span></div>
+            <div class="num"> </div>
+            <div onclick="write0()"class="num">0<span class="sou"></span></div>
+            <div onclick="writedot()"class class="num">.<span class="sou"></span></div>
+
+            <div onclick="equalto()" class="oprator">=<span class="sou"></span></div>
+        </div>
+    </div>
+    </div>
+    <script src="cal2.js"></script>
+</body>
+</html>
